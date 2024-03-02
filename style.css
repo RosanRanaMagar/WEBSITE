@@ -1,0 +1,121 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.abc{
+	height: 100vh;
+	width: 100%;
+}	
+nav{
+	box-shadow: 1px 2px 3rem;
+	height: 55px;
+	width: 100%;
+	background-color: whitesmoke;
+	position: fixed;
+	line-height: 50px;
+	z-index: 999;
+	overflow: hidden;
+}
+nav ul{
+	float: right;
+}
+ul li{
+	display: inline-block;
+	list-style: none;
+}
+.app2 a{
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 0px 50px;
+	text-decoration: none;
+	color: steelblue;
+	font-family: fantasy ;
+	
+}
+.app2 a:hover{
+	color: mediumblue;
+	text-shadow: 2px 2px 3px black;
+	transition: all 0.5s ease 0s;
+}
+.app1 a{
+	text-decoration: none;
+	font-size: 30px;
+	color: darkblue;
+	font-weight: bolder;
+	text-shadow: 5px 5px 12px darkgreen;
+
+}
+.app3 a{
+	text-decoration: none;
+	font-weight: bold;
+	color: darkblue;
+	font-size: 22px;
+	font-family: sans-serif;
+	background-color: yellow;
+	box-shadow: 1px 1px 50px yellow;
+}
+.app3 a:hover{
+	text-shadow: 1px 2px 4px black;
+}
+.b{
+	float: left;
+	height: 24px;
+	font-size: 30px;
+	font-weight: bold;
+	color: mediumvioletred;
+	font-family: cursive;
+	line-height: 25px;
+}
+img{
+	height: 55px; width: 70px;
+	float: left;
+	margin-left: 80px; 
+}
+.abc{
+	height: 100vh;
+	width: 100%;
+	background-color: #7849;
+	background-image: url(img/slider/ddoctor.jpg);
+	background-size: cover;
+	text-align: center;
+}
+h4{
+	
+	color: darkolivegreen;
+	line-height: 30px;
+	text-transform: lowercase;
+	padding-top: 40px;
+	padding-right: 840px;
+	
+}
+h1{
+	padding-top: 187px;
+	padding-right: 840px;
+	color: mediumvioletred;
+}
+button{
+		float: bottom;
+		margin-right: 870px;
+		background-color: #ccc;
+		padding-bottom: 5px;
+		padding-left: 5px;
+		padding-right: 5px;
+		
+.e{
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	color: whitesmoke;
+}
+.o{
+	text-decoration: none;
+}
+.field{
+	height: 100vh;
+	width: 100%; 
+	background-color: red;
+}
+.foot{
+	background-color: yellow;
+}

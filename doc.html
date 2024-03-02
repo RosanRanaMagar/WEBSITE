@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>👨🏽‍⚕️doctors</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<style type="text/css">
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 0px;
+  padding: 0 0px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  margin: 8px;
+  border-radius: 10%;
+} 
+
+.about-section {
+  padding: 70px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+  background-image: url("img/slider/images.jpeg");
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+nav{
+  box-shadow: 1px 2px 3rem;
+  height: 55px;
+  width: 100%;
+  background-color: whitesmoke;
+  position: fixed;
+  line-height: 50px;
+  z-index: 999;
+  overflow: hidden;
+}
+nav ul{
+  float: right;
+}
+ul li{
+  display: inline-block;
+  list-style: none;
+}
+nav li a{
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 0px 55px;
+  text-decoration: none;
+  color: steelblue;
+  font-family: fantasy ;
+  
+}
+nav li a:hover{
+  text-shadow: 2px 2px 3px black;
+  transition: all 0.5s ease 0s;
+}
+.b{
+  float: left;
+  height: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: mediumvioletred;
+  font-family: cursive;
+  line-height: 25px;
+}
+.logo-img{
+  height: 55px; width: 70px;
+  float: left;
+  margin-left: 80px; 
+}
+.slide-doc a{
+  font-size: 35px;
+  color: darkblue;
+  text-shadow: 1px 2px 3px black;
+}
+.d-img{
+  border-radius: 10%;
+}
+
+	</style>
+</head>
+<body>
+<div>
+	<nav>
+		<div class="menu">
+			<img class="logo-img" src="img/slider/rose.png">
+			<p class="b">Rosy<br>care</p>
+		</div>
+		<ul>
+			<li><a href="index.html">Home</a></li> 
+			<li class="slide-doc"><a>doctors</a></li>
+			<li><a href="login1.php">login</a></li>
+			<li><a href="form.html">signup</a></li>
+			<li><a href="">logout</a></li>
+      <li><a href="appointment.html">Book Appointment</a></li>
+		</ul>
+	</nav>
+
+
+	<div class="about-section">
+  <h1 style="font-size: 50px; font-family: monospace;">Rosy care &#128137;</h1>
+  <p style="font-size: 31px; font-family: serif;">We are here to provide services...!&#128521;</p>
+  <p style="font-size: 20px; font-family: sans-serif;">Different Category of medical services...!</p>
+</div>
+
+<h2 style="text-align:center; font-family: fantasy;">Our Team</h2>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img class="d-img" src="img/slider/rosan.jpg" alt="Rosan Rana Magar" style="width:100%; height: 447px;">
+      <div class="container">
+        <h2>Dr.Rosan Rana Magar</h2>
+        <p class="title">Cardiologist</p>
+        <p>rosanranamagar34@gmail.com</p>
+        <p><button class="button">9842290022</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img class="d-img" src="img/slider/dinesh.jpg" alt="Mike" style=" width: 100%; height: 447px;">
+      <div class="container">
+        <h2>Dr.Dinesh Shahi</h2>
+        <p class="title">Dentist</p>
+        <p>shahidinesh718@gmail.com</p>
+        <p><button class="button">9820431133</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img class="d-img" src="img/slider/ganesh.jpg" alt="John" style="width:100%; height: 447px;">
+      <div class="container">
+        <h2>Dr.Ganesh Shahi</h2>
+        <p class="title">Dermatologists</p>
+        <p>shahiganesh304@gmail.com</p>
+        <p><button class="button">9864311182</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img class="d-img" src="img/slider/binod.jpg" alt="John" style="width:100%; height: 447px;">
+      <div class="container">
+        <h2>Dr.Binod Chhettri</h2>
+        <p class="title">Emergency Physician</p>
+        <p>bcbinod10@gmail.com</p>
+        <p><button class="button">9812491201</button></p>
+      </div>
+</div>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img class="d-img" src="img/slider/274349069_408653021031690_6104588259123221901_n.jpg" alt="Rosan Rana Magar" style="width:100%; height: 447px;">
+      <div class="container">
+        <h2>Dr.Anisha Tharu</h2>
+        <p class="title">Gynecologist</p>
+        <p>anishatharu56@gmail.com</p>
+        <p><button class="button">9842290022</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img class="d-img" src="img/slider/345334802_1629238634226433_7203928800536903842_n.jpg" alt="Mike" style=" width: 100%; height: 447px;">
+      <div class="container">
+        <h2>Dr.Prabina Tharu</h2>
+        <p class="title">Neurologist</p>
+        <p>prabinatharu888@gmail.com</p>
+        <p><button class="button">9820431133</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img class="d-img" src="img/slider/316550759_1178221866429321_6899267714133926809_n.jpg" alt="John" style="width:100%; height: 447px;">
+      <div class="container">
+        <h2>Dr.Bhawana Pyakurel</h2>
+        <p class="title">Oncologist</p>
+        <p>pyakurelbhawna45@gmail.com</p>
+        <p><button class="button">9864311182</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img class="d-img" src="img/slider/405108282_1414046236181928_6187903559946644781_n.jpg" alt="John" style="width:100%; height: 447px;">
+      <div class="container">
+        <h2>Dr.Sarinda Dangi</h2>
+        <p class="title">Endrocrinologists</p>
+        <p>sarinda12@gmail.com</p>
+        <p><button class="button">9812491201</button></p>
+      </div>
+</div>
+</body>
+</html>

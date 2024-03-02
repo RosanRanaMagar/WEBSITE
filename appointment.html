@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>appointment schedule</title>
+    <style type="text/css">
+        body:before {
+                content: '';
+                position: fixed;
+                width: 100vw;
+                height: 100vh;
+                background-image: url("img/slider/istockphoto-1319031310-612x612.jpg");
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                -webkit-background-size: cover;
+                background-size: cover;
+                -webkit-filter: blur(10px);
+                -moz-filter: blur(10px);
+                filter: blur(10px);
+            }
+        .container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            height: 400px;
+            padding: 80px 40px;
+            background-color: darkblue;
+            border-radius: 10%;
+            font-size: 25px;
+            font-weight: bold;
+            box-shadow: 5px 10px 50px black;
+            color: ghostwhite;
+        }
+
+        .aa{
+            color: black;
+            width: 100%;
+            font-size: 25px;
+            font-weight: bold;
+            border: 2px solid black;
+
+        }
+        .aaa{
+            height: 50px;
+            width: 150px;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: cursive;
+            border-radius: 15%;
+            box-shadow: 1px 2px 50px white;
+        }
+        .aaa:hover{
+            color: white;
+            background-color: darkblue;
+            
+
+        }
+        .o{
+            font-size: 18px;
+            font-family: cursive;
+            border-radius: 45%;
+            background-color: blue;
+            color: white;
+        }
+        .oo{
+            height: 30px;
+            border-radius: 20%;
+            box-shadow: 5px 6px 50px white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <form action="appointment.php" method="post">
+        <label>Patient Name:</label>
+        <input class="aa" type="text" name="name"><br><br>
+
+        <label>email</label>
+        <input class="aa" type="email" name="email"><br><br>
+
+        <label>Category:</label>
+        <select class="oo" name="category">
+                <option class="o">Cardiology</option>
+                <option class="o">Dentology</option>
+                <option class="o">Dermatology</option>
+                <option class="o">Emergency Physio</option>
+                <option class="o">Gynecology</option>
+                <option class="o">Neurology</option>
+                <option class="o">Oncology</option>
+                <option class="o">Endrocrinology</option>
+        </select><br><br>
+
+        <label>Mobile Number:</label>
+        <input type="number" name="phone" class="oo"> <br><br>
+
+        <label>Appointment Date</label>
+        <input class="aa" type="date" name="pdate"> <br><br>
+        
+        <input class="aaa" type="submit" value="Book Now" name="">
+    </form>
+</div>
+</body>
+</html>
